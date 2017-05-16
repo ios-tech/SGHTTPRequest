@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.dependency    "MGEvents", '~> 1.1'
   s.default_subspecs = 'Core', 'UIKit'
   s.ios.deployment_target = '7.0'
+  s.tvos.deployment_target = '9.0'
   s.subspec 'Core' do |sp|
     sp.ios.deployment_target = '7.0'
     sp.watchos.deployment_target = '2.0'
